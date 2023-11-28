@@ -13,6 +13,7 @@ body {
   }
   
   #scroll-text {
+    animation-iteration-count: infinite;
     text-align: right;
   
     /* animation properties */
@@ -24,6 +25,11 @@ body {
     -webkit-animation: my-animation 15s linear infinite;
     animation: my-animation 15s linear infinite;
   }
+  
+  #scroll-element {
+    text-align: center;
+  }
+
   
   /* for Firefox */
   @-moz-keyframes my-animation {
